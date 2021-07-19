@@ -1,1 +1,1 @@
-# Banking-Syatem
+# Banking-System
