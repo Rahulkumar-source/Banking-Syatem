@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Banking_System</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="luck.png" alt="logo" style="width:40px;">
+  </a>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li> 
+  </ul>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<img src="bank.jpg" alt="bank" width="100%"height="100%">
+</div>
+<div class="col-md-7">
+<div class="but">
+<h2><b>GOOD LUCK !</b></h2>
+<br>
+<h6>Welcome to Good Luck Bank &#128512;</h6>
+<span id="tag"><b>-A Bank For Your Better Growth!</b></span>
+<div class="luck">
+<img src="luck.png" alt="bank" width="150px"height="150px">
+</div>
+
+<a href="customerdetails.php" button class="button" style="vertical-align:middle"><span>Customer Details </span></button></a>
+</div>
+</div>
+
+</body>
+<style>
+
+.navbar{
+         background-color:#114E60;} 
+		 .back{ width:100%;
+		       height:200px;
+			   position:absolute;} 
+			   
+.but{padding-top:40px;}
+	
+	.button {
+  display: inline-block;
+  border-radius: 60px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 0px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left:50px;
+  margin-top:5%;
+
+}
+#tag{margin-left:100px;
+      font-size:14px;
+	  color:#F08FC0;}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 60px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 0px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.but h2{ margin-left:15%;
+          color:#150E56;} 
+		  
+.but h6{ margin-left:15%;
+          color:#FB9300;} 
+		  
+.luck{ margin-left:100px;
+       margin-top:10%;} 
+
+ </style>
+</html>
